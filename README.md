@@ -5,6 +5,8 @@ This is the modification from source code from Blog [Raspberry Pi Pico/MicroPyth
 I used uart communication between The Raspberry Pi Pico and ESP 8266. The AT command to communication with access point to ESP8266.
 We can used any AT Command for ESP8266 like reset, reconnect and more.
 
+The programming language : Micropython
+
 Wire : 
 RPi-Pico   ||   ESP8266
 
