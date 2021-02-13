@@ -56,7 +56,7 @@ sendCMD_waitResp("AT+GMR\r\n")
 
 
 utime.sleep(0.5)
-sendCMD_waitResp("AT+RST\r\n") #reset the esp8622
+sendCMD_waitResp("AT+RST\r\n") #reset the esp8266
 
 sendCMD_waitResp("AT\r\n")
 
