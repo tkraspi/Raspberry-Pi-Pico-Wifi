@@ -56,15 +56,11 @@ sendCMD_waitResp("AT+GMR\r\n")
 
 
 utime.sleep(0.5)
-sendCMD_waitResp("AT+RST\r\n")
+sendCMD_waitResp("AT+RST\r\n") #reset the esp8622
 
 sendCMD_waitResp("AT\r\n")
 
-#sendCMD_waitResp("AT+CWJAP=\"TKRASPILABS-WK\",\"z03lqivlie2031\"r\n")
-
-
-
-sendCMD_waitResp("AT+CIPSTATUS\r\n")
+sendCMD_waitResp("AT+CIPSTATUS\r\n") #check status
 
 sendCMD_waitResp("AT+CIFSR\r\n")
 # check IP address of esp8266
