@@ -10,9 +10,9 @@ The programming language : Micropython
 Wire : 
 RPi-Pico   ||   ESP8266
 
-GP0 (TX) <----> GPIO1 (RX)
+GP0 (TX) <----> GPIO3 (RX)
 
-GP1 (RX) <----> GPIO0 (TX)
+GP1 (RX) <----> GPIO2 (TX)
 
 3V3(out) <----> VCC
 
